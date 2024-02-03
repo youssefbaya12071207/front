@@ -1,0 +1,26 @@
+<h2> Vignette List </h2>
+<table class = "table table-striped">
+    <thead>
+        <tr>
+            <th> First Name</th>
+            <th> Last Name </th>
+            <th> Email Id</th>
+            <th> Assurence debut</th>
+            <th> Assurence fin</th>
+            <th> Actions </th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor = "let vignette of vignettes" >
+            <td> {{ vignette.firstname }} </td>
+            <td> {{ vignette.lastname }} </td>
+            <td> {{ vignette.email }} </td>
+            <td> {{ vignette.start }} </td>
+            <td> {{ vignette.end }} </td>
+
+
+
+        </tr>
+    </tbody>
+</table>
